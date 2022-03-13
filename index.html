@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <meta chatrset="utf=8">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item" id="grid-item-screen">-------</div>
+        <div class="grid-item" id="grid-item-AC">
+            <button id="button-AC" onclick='acClick()'>AC</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-dot" onclick='numberClick(".")'>.</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-0" onclick='numberClick("0")'>0</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-plus" onclick='numberClick("+")'>+</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-1" onclick='numberClick("1")'>1</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-2" onclick='numberClick("2")'>2</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-3" onclick='numberClick("3")'>3</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-minus" onclick='numberClick("-")'>-</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-4" onclick='numberClick("4")'>4</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-5" onclick='numberClick("5")'>5</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-6" onclick='numberClick("6")'>6</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-multiply" onclick='numberClick("*")'>*</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-7" onclick='numberClick("7")'>7</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-8" onclick='numberClick("8")'>8</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-9" onclick='numberClick("9")'>9</button>
+        </div>
+        <div class="grid-item">
+            <button id="button-divide" onclick='numberClick("/")'>/</button>
+        </div>
+        <div class="grid-item" id="grid-item-equals">
+            <button id="button-equals" onclick='equals()'>=</button>
+        </div>
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
